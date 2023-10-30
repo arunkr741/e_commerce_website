@@ -1,0 +1,8 @@
+# Ignore the .env file
+.env
+
+# Ignore the .vscode directory
+.vscode/
+
+# Ignore the env directory
+env/

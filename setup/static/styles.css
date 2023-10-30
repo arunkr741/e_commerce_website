@@ -1,0 +1,126 @@
+style.css
+
+/* Style for the form */
+form {
+    margin-bottom: 20px;
+}
+
+/* Style for form labels and inputs */
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style for table headers */
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Style for table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style for country flag images */
+table img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+select#region {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+select#region option {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* style.css */
+
+/* Style for the table header with the sort icon */
+th {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Style for the sort icon */
+.sort-icon {
+    display: inline-block;
+    width: 0;
+    height: 0;
+}
+
+/* Style for the up triangle */
+.sort-icon:after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 6px solid #000; /* Change the color as needed */
+    margin-left: 5px;
+}
+
+/* Style for the down triangle */
+.sort-icon.desc:after {
+    border-bottom: none;
+    border-top: 6px solid #000; /* Change the color as needed */
+}
+#filterPopulation{
+
+}
+#minPopulation, #maxPopulation, #search_query {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button, input[type='button'] {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
